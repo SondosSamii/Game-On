@@ -1,0 +1,10 @@
+$backgroundColor: #c42d32;
+$textColor: #fff;
+nav {
+    background-color: $backgroundColor;
+    a {
+        color: $textColor;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
