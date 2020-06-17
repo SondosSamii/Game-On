@@ -1,5 +1,5 @@
-$backgroundColor: #c42d32;
-$textColor: #fff;
+@import '../colors';
+
 nav {
     background-color: $backgroundColor;
     a {
