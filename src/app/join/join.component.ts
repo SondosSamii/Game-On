@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 
-declare var $: any;
+declare let $: any;
 
 @Component({
   selector: "app-join",
@@ -9,7 +9,7 @@ declare var $: any;
 })
 export class JoinComponent implements OnInit {
   ngOnInit() {
-    $(document).ready(function () {
+    $(document).ready(() => {
       $(".team-carousel").owlCarousel();
     });
   }
